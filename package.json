@@ -1,0 +1,30 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for starting typescript projects from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "parcel index.html",
+    "build": "parcel build dist/index.html"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "boilerplate",
+    "html5"
+  ],
+  "author": "ohsnapdevin",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "popper.js": "^1.15.0",
+    "save-dev": "^2.0.0",
+    "typescript": "^3.4.2"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.4"
+  }
+}
